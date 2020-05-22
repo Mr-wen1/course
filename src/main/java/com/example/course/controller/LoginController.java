@@ -17,7 +17,7 @@ public class LoginController {
         return iLoginService.login(username, password);
     }
 
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    @RequestMapping(value = "/login2", method = RequestMethod.POST)
     private Login login(@RequestBody Login login) {
         return iLoginService.login(login.getUsername(), login.getPassword());
     }
@@ -28,7 +28,7 @@ public class LoginController {
         iLoginService.add(id, username, password, permission);
     }
 
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    @RequestMapping(value = "/add2", method = RequestMethod.POST)
     private void add(@RequestBody Login login) {
         iLoginService.add(login.getId(), login.getUsername(), login.getPassword(), login.getPermission());
     }

@@ -1342,3 +1342,17 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No b
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
 	... 51 common frames omitted
 
+2020-05-22 22:35:54.669  INFO 9464 --- [main] com.example.course.CourseApplication     : Starting CourseApplication on LAPTOP-LTNML4P6 with PID 9464 (D:\IDEA-WorkSpace\course\target\classes started by 60347 in D:\IDEA-WorkSpace\course)
+2020-05-22 22:35:54.672  INFO 9464 --- [main] com.example.course.CourseApplication     : No active profile set, falling back to default profiles: default
+2020-05-22 22:35:56.161  INFO 9464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-05-22 22:35:56.176  INFO 9464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-22 22:35:56.179  INFO 9464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-22 22:35:56.183  INFO 9464 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-05-22 22:35:56.186  INFO 9464 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-22 22:35:56.187  INFO 9464 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-22 22:35:56.198  INFO 9464 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-05-22 22:35:56.443  INFO 9464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-22 22:35:56.445  INFO 9464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1707 ms
+2020-05-22 22:35:57.104  INFO 9464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-22 22:35:57.487  INFO 9464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-05-22 22:35:57.500  INFO 9464 --- [main] com.example.course.CourseApplication     : Started CourseApplication in 3.347 seconds (JVM running for 4.567)
